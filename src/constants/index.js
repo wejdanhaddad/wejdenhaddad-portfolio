@@ -95,7 +95,7 @@ export const projects = [
     name: "Software License Management System",
     description:
       "A full-stack project developed as a final year thesis. It includes a secure REST API for license generation, a C# desktop dashboard (DevExpress) for administrators, and a public company showcase website built with Symfony.",
-    href: "#contact",
+    href: "https://github.com/wejdanhaddad",
     image: "/assets/projects/twinkle.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
@@ -111,7 +111,7 @@ export const projects = [
     name: "CMS E-Commerce Website Development & Design",
     description:
       "Recreated and customized e-commerce websites for clients using WordPress and PrestaShop. Tasks included layout design in Figma, integration with Elementor and Astra, and optimization of UI elements and banners.",
-    href: "#contact",
+    href: "https://github.com/wejdanhaddad",
     image: "/assets/projects/cms.jpg",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
@@ -125,7 +125,7 @@ export const projects = [
     name: "3D Modeling & Animation for UI/UX",
     description:
       "Created 3D models and simple animations to enhance digital visuals and web interactions. Focused on product presentation and creative content for websites and ads.",
-    href: "#contact",
+    href: "https://www.artstation.com/gigiblend",
     image: "/assets/projects/3d.jpg",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
@@ -139,7 +139,7 @@ export const projects = [
     name: "Luxury Car Rental Website (Front-End Development)",
     description:
       "Developed a modern car rental website using Angular. Implemented clean UI components, responsive layouts, and connected front-end logic with a Node.js backend prototype.",
-    href:"#contact",
+    href:"https://github.com/wejdanhaddad",
     image: "/assets/projects/luxe.png",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
@@ -154,7 +154,7 @@ export const projects = [
     name: "SportsLand E-Commerce Website (Front-End Development)",
     description:
       "Designed and developed a sports e-commerce interface using Angular, focusing on performance, visual appeal, and user experience.",
-    href: "#contact",
+    href: "https://github.com/wejdanhaddad",
     image: "/assets/projects/sportsLand.png",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [

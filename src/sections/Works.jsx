@@ -10,9 +10,6 @@ const Works = () => {
   const previewRef = useRef(null);
 
   const [currentIndex, setCurrentIndex] = useState(null);
-  const text = `Featured projects that have been meticulously
-    crafted with passion to drive
-    results and impact.`;
 
   const mouse = useRef({ x: 0, y: 0 });
   const moveX = useRef(null);
@@ -98,25 +95,30 @@ const Works = () => {
     moveX.current(mouse.current.x);
     moveY.current(mouse.current.y);
   };
+
   return (
     <section id="work" className="flex flex-col min-h-screen">
       <AnimatedHeaderSection
-  subTitle={"Where design, development, and creativity connect"}
-  title={"Works"}
-  text={`A selection of projects where I explored both the visual and technical sides of creation.
-  From designing intuitive interfaces and crafting smooth animations to developing functional backends — 
-  each project represents my passion for turning ideas into interactive, meaningful experiences.`}
-  textColor={"text-black"}
-  withScrollTrigger={true}
-/>
+        subTitle={"Where design, development, and creativity connect"}
+        title={"Works"}
+        text={`A selection of projects where I explored both the visual and technical sides of creation.
+        From designing intuitive interfaces and crafting smooth animations to developing functional backends — 
+        each project represents my passion for turning ideas into interactive, meaningful experiences.`}
+        textColor={"text-black"}
+        withScrollTrigger={true}
+      />
+
       <div
         className="relative flex flex-col font-light"
         onMouseMove={handleMouseMove}
       >
         {projects.map((project, index) => (
-          <div
+          <a
             key={project.id}
             id="project"
+            href={project.href}
+            target="_blank"
+            rel="noopener noreferrer"
             className="relative flex flex-col gap-1 py-5 cursor-pointer group md:gap-0"
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={() => handleMouseLeave(index)}
@@ -136,8 +138,10 @@ const Works = () => {
               </h2>
               <Icon icon="lucide:arrow-up-right" className="md:size-6 size-5" />
             </div>
+
             {/* divider */}
             <div className="w-full h-0.5 bg-black/80" />
+
             {/* framework */}
             <div className="flex px-10 text-xs leading-loose uppercase transtion-all duration-500 md:text-sm gap-x-5 md:group-hover:px-12">
               {project.frameworks.map((framework) => (
@@ -149,6 +153,7 @@ const Works = () => {
                 </p>
               ))}
             </div>
+
             {/* mobile preview image */}
             <div className="relative flex items-center justify-center px-10 md:hidden h-[400px]">
               <img
@@ -162,9 +167,10 @@ const Works = () => {
                 className="absolute bg-center px-14 rounded-xl"
               />
             </div>
-          </div>
+          </a>
         ))}
-        {/* desktop Flaoting preview image */}
+
+        {/* desktop Floating preview image */}
         <div
           ref={previewRef}
           className="fixed -top-2/6 left-0 z-50 overflow-hidden border-8 border-black pointer-events-none w-[960px] md:block hidden opacity-0"
@@ -181,4 +187,5 @@ const Works = () => {
     </section>
   );
 };
+
 export default Works;
