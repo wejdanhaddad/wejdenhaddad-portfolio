@@ -98,16 +98,17 @@ const Works = () => {
     moveX.current(mouse.current.x);
     moveY.current(mouse.current.y);
   };
-
   return (
     <section id="work" className="flex flex-col min-h-screen">
       <AnimatedHeaderSection
-        subTitle={"Logic meets Aesthetics, Seamlessly"}
-        title={"Works"}
-        text={text}
-        textColor={"text-black"}
-        withScrollTrigger={true}
-      />
+  subTitle={"Where design, development, and creativity connect"}
+  title={"Works"}
+  text={`A selection of projects where I explored both the visual and technical sides of creation.
+  From designing intuitive interfaces and crafting smooth animations to developing functional backends — 
+  each project represents my passion for turning ideas into interactive, meaningful experiences.`}
+  textColor={"text-black"}
+  withScrollTrigger={true}
+/>
       <div
         className="relative flex flex-col font-light"
         onMouseMove={handleMouseMove}
@@ -125,7 +126,7 @@ const Works = () => {
               ref={(el) => {
                 overlayRefs.current[index] = el;
               }}
-              className="absolute inset-0 hidden md:block duration-200 bg-black -z-10 clip-path"
+              className="absolute inset-0 hidden md:block duration-200 bg-blue-400 -z-10 clip-path"
             />
 
             {/* title */}
@@ -180,5 +181,4 @@ const Works = () => {
     </section>
   );
 };
-
 export default Works;

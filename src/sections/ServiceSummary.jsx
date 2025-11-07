@@ -34,7 +34,7 @@ const ServiceSummary = () => {
     });
   });
   return (
-    <section className="mt-20 overflow-hidden font-light leading-snug text-center mb-42 contact-text-responsive">
+    <section className="mt-20 overflow-hidden font-light leading-snug text-center mb-42 contact-text-responsive title-font">
       <div id="title-service-1">
         <p>Architucture</p>
       </div>
@@ -43,7 +43,7 @@ const ServiceSummary = () => {
         className="flex items-center justify-center gap-3 translate-x-16"
       >
         <p className="font-normal">Development</p>
-        <div className="w-10 h-1 md:w-32 bg-gold" />
+        <div className="w-10 h-1 md:w-32 bg-blue-400" />
         <p>Deployment</p>
       </div>
       <div
@@ -51,9 +51,9 @@ const ServiceSummary = () => {
         className="flex items-center justify-center gap-3 -translate-x-48"
       >
         <p>APIs</p>
-        <div className="w-10 h-1 md:w-32 bg-gold" />
+        <div className="w-10 h-1 md:w-32 bg-blue-400" />
         <p className="italic">Frontends</p>
-        <div className="w-10 h-1 md:w-32 bg-gold" />
+        <div className="w-10 h-1 md:w-32 bg-blue-400" />
         <p>Scalability</p>
       </div>
       <div id="title-service-4" className="translate-x-48">

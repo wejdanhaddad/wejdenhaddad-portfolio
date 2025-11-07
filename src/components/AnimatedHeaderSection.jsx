@@ -27,16 +27,13 @@ const AnimatedHeaderSection = ({
       duration: 1,
       ease: "circ.out",
     });
-    tl.from(
-      headerRef.current,
-      {
-        opacity: 0,
-        y: "200",
-        duration: 1,
-        ease: "circ.out",
-      },
-      "<+0.2"
-    );
+    tl.from(headerRef.current, {
+  opacity: 0,
+  y: 100,
+  duration: 1.2,
+  ease: "power3.out",
+});
+
   }, []);
   return (
     <div ref={contextRef}>
@@ -46,19 +43,19 @@ const AnimatedHeaderSection = ({
           className="flex flex-col justify-center gap-12 pt-16 sm:gap-16"
         >
           <p
-            className={`text-sm font-light tracking-[0.5rem] uppercase px-10 ${textColor}`}
-          >
-            {subTitle}
-          </p>
-          <div className="px-10">
-            <h1
-              className={`flex flex-col gap-12 uppercase banner-text-responsive sm:gap-16 md:block ${textColor}`}
-            >
-              {titleParts.map((part, index) => (
-                <span key={index}>{part} </span>
-              ))}
-            </h1>
-          </div>
+  className={`text-sm font-light tracking-[0.5rem] uppercase px-10 ${textColor} `}
+>
+  {subTitle}
+</p>
+<div className="px-10">
+  <h1
+    className={`flex flex-col gap-12 uppercase banner-text-responsive sm:gap-16 md:block ${textColor} title-font`}
+  >
+    {titleParts.map((part, index) => (
+      <span key={index}>{part} </span>
+    ))}
+  </h1>
+</div>
         </div>
       </div>
       <div className={`relative px-10 ${textColor}`}>
@@ -66,7 +63,7 @@ const AnimatedHeaderSection = ({
         <div className="py-12 sm:py-16 text-end">
           <AnimatedTextLines
             text={text}
-            className={`font-light uppercase value-text-responsive ${textColor}`}
+            className={`font-light  value-text-responsive ${textColor} title-font`}
           />
         </div>
       </div>

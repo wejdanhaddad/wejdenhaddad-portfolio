@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 gsap.registerPlugin(Observer);
 const Marquee = ({
   items,
-  className = "text-white bg-black",
+  className = "text-white bg-blue-500",
   icon = "mdi:star-four-points",
   iconClassName = "",
   reverse = false,
@@ -145,7 +145,8 @@ const Marquee = ({
   return (
     <div
       ref={containerRef}
-      className={`overflow-hidden w-full h-20 md:h-[100px] flex items-center marquee-text-responsive font-light uppercase whitespace-nowrap ${className}`}
+      className={`over
+        flow-hidden w-full h-20 md:h-[100px] flex items-center marquee-text-responsive font-light uppercase whitespace-nowrap ${className}`}
     >
       <div className="flex">
         {items.map((text, index) => (

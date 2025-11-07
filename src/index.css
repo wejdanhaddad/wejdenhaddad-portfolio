@@ -1,4 +1,9 @@
+
 @import "tailwindcss";
+.title-font {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+}
 
 /* Amiamie Regular */
 @font-face {

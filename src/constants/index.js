@@ -1,181 +1,180 @@
 // index.js
+
+/**
+ * "Competences" or "Services" section
+ * Highlighting Wejden Haddad’s blend of web development, design, and multimedia expertise.
+ */
+
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "Web Development Foundations",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "Exploring the full process of web creation — from designing front-end interfaces to building secure, structured back-end systems. I enjoy connecting logic and creativity to deliver functional, elegant results.",
     items: [
       {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
+        title: "Frontend Development",
+        description: "(React, Angular, WordPress, UI & animation with GSAP)",
       },
       {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        title: "Backend Fundamentals",
+        description: "(Symfony, PHP, REST API integration, Node.js basics)",
       },
       {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        title: "Database & Security",
+        description: "(SQL Server, authentication, and RESTful data handling)",
       },
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "Multimedia & 3D Design",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Merging artistic vision with technical skill. I design digital visuals, 3D environments, and brand identities that enhance user experience and tell a story.",
     items: [
       {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        title: "Visual Identity & Branding",
+        description: "(Photoshop, Illustrator, Canva — print & digital media)",
       },
       {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
+        title: "3D Modeling & Animation",
+        description: "(Blender — UI/UX elements, product visualization, motion)",
       },
       {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+        title: "Creative Content",
+        description: "(Social media banners, newsletters, and digital campaigns)",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "System Integration & E-Commerce",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Hands-on experience developing and managing CMS-based websites. From rebuilding designs from Figma to deploying e-commerce solutions with smooth user and admin interfaces.",
     items: [
       {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
+        title: "E-Commerce Platforms",
+        description: "(WordPress, PrestaShop, Elementor, Astra theme)",
       },
       {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
+        title: "Figma to Web",
+        description: "(Translating client mockups into responsive websites)",
       },
       {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
+        title: "Custom Tools",
+        description: "(License management systems, dashboard interfaces)",
       },
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Emerging & Complementary Skills",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "Curious and eager to learn new technologies, I enjoy exploring areas that expand my creative and technical range.",
     items: [
       {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
+        title: "Game Development Basics",
+        description: "(Unity — asset creation, interactive elements)",
       },
       {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
+        title: "Mobile App Development",
+        description: "(Simple mobile apps and UI experimentation)",
       },
       {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+        title: "Support & Maintenance",
+        description: "(System setup, troubleshooting, basic networking)",
       },
     ],
   },
 ];
+
+/**
+ * "Projects" or "Experience" section
+ * Highlighting key academic and professional projects.
+ */
+
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Software License Management System",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
-    href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
+      "A full-stack project developed as a final year thesis. It includes a secure REST API for license generation, a C# desktop dashboard (DevExpress) for administrators, and a public company showcase website built with Symfony.",
+    href: "#contact",
+    image: "/assets/projects/twinkle.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 1, name: "Symfony (PHP)" },
+      { id: 2, name: "C#" },
+      { id: 3, name: "REST API" },
+      { id: 4, name: "SQL Server" },
+      { id: 5, name: "JavaScript" },
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "CMS E-Commerce Website Development & Design",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
-    href: "",
-    image: "/assets/projects/plant-shop.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
+      "Recreated and customized e-commerce websites for clients using WordPress and PrestaShop. Tasks included layout design in Figma, integration with Elementor and Astra, and optimization of UI elements and banners.",
+    href: "#contact",
+    image: "/assets/projects/cms.jpg",
+    bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 1, name: "WordPress / PrestaShop / Elementor" },
+      { id: 2, name: "Figma" },
+      { id: 3, name: "Photoshop / Illustrator" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "3D Modeling & Animation for UI/UX",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
-    href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
-    bgImage: "/assets/backgrounds/map.jpg",
+      "Created 3D models and simple animations to enhance digital visuals and web interactions. Focused on product presentation and creative content for websites and ads.",
+    href: "#contact",
+    image: "/assets/projects/3d.jpg",
+    bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "Blender" },
+      { id: 2, name: "Illustrator" },
+      { id: 3, name: "Unity" },
     ],
   },
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "Luxury Car Rental Website (Front-End Development)",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
-    href: "",
-    image: "/assets/projects/electronics-store.jpg",
+      "Developed a modern car rental website using Angular. Implemented clean UI components, responsive layouts, and connected front-end logic with a Node.js backend prototype.",
+    href:"#contact",
+    image: "/assets/projects/luxe.png",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
+      { id: 1, name: "Angular" },
+      { id: 2, name: "HTML / CSS" },
+      { id: 3, name: "TypeScript" },
+      { id: 4, name: "Node.js" },
     ],
   },
   {
     id: 5,
-    name: "Home Decor Marketplace",
+    name: "SportsLand E-Commerce Website (Front-End Development)",
     description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
-    href: "",
-    image: "/assets/projects/home-decor-store.jpg",
-    bgImage: "/assets/backgrounds/table.jpg",
+      "Designed and developed a sports e-commerce interface using Angular, focusing on performance, visual appeal, and user experience.",
+    href: "#contact",
+    image: "/assets/projects/sportsLand.png",
+    bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
       { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Digital Game Store",
-    description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
-    href: "",
-    image: "/assets/projects/game-store.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
-    frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 2, name: "HTML / CSS" },
+      { id: 3, name: "TypeScript" },
+      { id: 4, name: "Node.js" },
     ],
   },
 ];
+
+/**
+ * Contact and Social Media Links
+ */
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
   {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/wejden-haddad", // Make sure your URL is lowercase and correct
   },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "GitHub", href: "https://github.com/wejdanhaddad" },
+  { name: "Email", href: "mailto:wejdenhadded57@gmail.com" },
+  { name: "Phone", href: "tel:+21650024648" },
 ];
