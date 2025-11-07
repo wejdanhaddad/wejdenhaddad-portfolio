@@ -1,10 +1,11 @@
-# 🌐 3D Awwwards-Level Developer Portfolio
+# 🌐 Wejden Haddad — 3D Creative Developer Portfolio
 
-### Built with React, GSAP, Three.js, TailwindCSS
+### Built with React, GSAP, Three.js, and TailwindCSS
 
-This is a fully animated, interactive, 3D developer portfolio designed to **impress clients, recruiters, and hiring managers**. It's more than a portfolio—it's a web experience built with production-level code, scroll-based animations, and real-world best practices.
+This is a fully interactive, 3D portfolio inspired by Awwwards-level websites — created to present my **skills, projects, and creative journey** as a **Multimedia & Web Developer**.  
+It combines smooth scroll animations, 3D visuals, and modern web practices to deliver a cinematic, immersive experience.
 
-> ⚡ Inspired by Awwwards-level sites — built with React (Vite), TailwindCSS, GSAP, React Three Fiber, and Drei.
+> ✨ Designed and developed with passion, blending technology, storytelling, and aesthetics.
 
 <br/>
 <div>
@@ -17,80 +18,45 @@ This is a fully animated, interactive, 3D developer portfolio designed to **impr
 </div>
 <br/>
 
-> 📺 [Watch Full YouTube Walkthrough](https://youtu.be/i0229UsdBwc)
+> 🌙 A dreamy blue & beige themed 3D world — reflecting my calm creative energy and multimedia background.
+
 ---
 
 ## 🚀 Tech Stack
 
-| Technology       | Description                             |
-| ---------------- | --------------------------------------- |
-| **React (Vite)** | Fast dev server and production bundling |
-| **Tailwind CSS** | Utility-first styling for components    |
-| **GSAP**         | Scroll-based animation and motion logic |
-| **Three.js**     | 3D scenes powered by React Three Fiber  |
-| **Drei**         | Useful helpers for 3D rendering         |
+| Technology | Description |
+| ----------- | ----------- |
+| **React (Vite)** | Modern, fast, and modular framework for building the interface |
+| **Tailwind CSS** | Utility-first CSS for a clean and responsive layout |
+| **GSAP** | Motion engine for scroll-based and timeline animations |
+| **Three.js / React Three Fiber** | 3D rendering engine for web-based interactive scenes |
+| **Drei** | Helpers to simplify 3D scene creation and controls |
 
 ---
 
-## 📁 Features
+## ✨ Features
 
-- 🔥 3D Hero Section with animated planet and golden ring
-- 🧩 Smooth slide-in Navbar with staggered link animations
-- 🎯 Scroll-triggered Service Summary with horizontal word motion
-- 🖼️ Works section with hover overlays and interactive previews
-- ✍️ About section with clip-path image reveal + typewriter text
-- 🏁 Marquee-based Contact Summary and CTA
-- 💼 Fully responsive and accessible on all screen sizes
+- 🌌 **3D Hero Section** with soft animations and a glowing ambient scene  
+- 🧭 **Animated Navigation Bar** with smooth transitions  
+- 🧩 **Services Section** showcasing my blend of Web, Design & 3D expertise  
+- 🖼️ **Projects/Works Section** featuring my real projects (WordPress, PrestaShop, Blender, Ads)  
+- 💫 **About Section** with animated reveal and storytelling elements  
+- 💬 **Contact Section** with floating 3D elements and call-to-action  
+- 📱 Fully **responsive**, **accessible**, and **optimized** for all screens  
 
 ---
 
-## 📦 Setup & Installation
+## 🧰 Installation & Setup
 
 ```bash
-git clone https://github.com/Ali-Sanati/awwwards-portfolio.git
-cd awwwards-portfolio
+# Clone the repository
+git clone https://github.com/wejdenhaddad/wejden-s-portfolio.git
+
+# Enter project directory
+cd wejden-s-portfolio
+
+# Install dependencies
 npm install
+
+# Run the project locally
 npm run dev
-```
-
-> Open http://localhost:5173 in your browser.
-
----
-
-## 🛠️ Customization Tips
-
-- Change text, images, and links in /constants/index.js
-
-- Update 3D models and scene in Hero.jsx
-
-- Add your own contact info in Contact.jsx
-
-- Adjust colors, fonts, and layout via tailwind.config.js
-
----
-
-## 🔗 Assets
-
-Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip)
-
----
-
-## 📣 Like the project?
-
-If this helped you build or inspire your own site:
-
-- ⭐ Star this repo
-
-- 📺 [Watch the full walkthrough on YouTube](https://youtu.be/i0229UsdBwc)
-
-- 📬 [Connect on LinkedIn](https://www.linkedin.com/in/ali-sanati)
-
-- 📷 [Follow me on Instagram](https://www.instagram.com/ali.sanatidev/reels/)
-
----
-
-## 🤝 Let’s Build Together
-
-Drop a comment on the video or open an issue with your idea!
-
-> 📩 Like, subscribe, and let me know what kind of project you want to build together!
