@@ -36,7 +36,7 @@ const ServiceSummary = () => {
   return (
     <section className="mt-20 overflow-hidden font-light leading-snug text-center mb-42 contact-text-responsive title-font">
       <div id="title-service-1">
-        <p>Architucture</p>
+        <p>Visual Design</p>
       </div>
       <div
         id="title-service-2"
@@ -44,7 +44,7 @@ const ServiceSummary = () => {
       >
         <p className="font-normal">Development</p>
         <div className="w-10 h-1 md:w-32 bg-blue-400" />
-        <p>Deployment</p>
+        <p>3D Modeling</p>
       </div>
       <div
         id="title-service-3"
@@ -52,9 +52,9 @@ const ServiceSummary = () => {
       >
         <p>APIs</p>
         <div className="w-10 h-1 md:w-32 bg-blue-400" />
-        <p className="italic">Frontends</p>
+         <p className="italic">Frontends</p>
         <div className="w-10 h-1 md:w-32 bg-blue-400" />
-        <p>Scalability</p>
+        <p>Creativity</p>
       </div>
       <div id="title-service-4" className="translate-x-48">
         <p>Databases</p>

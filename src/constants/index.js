@@ -164,6 +164,20 @@ export const projects = [
       { id: 4, name: "Node.js" },
     ],
   },
+  {
+    id: 6,
+    name: "This beautiful portfolio website",
+    description:
+      "My personal portfolio site showcasing my projects and skills, built with React and enhanced with GSAP animations for a dynamic user experience.",
+    href: "https://wejdenhaddad-portfolio.netlify.app/",
+  
+    frameworks: [
+      { id: 1, name: "React" },
+      { id: 2, name: "HTML / CSS / JS" },
+      { id: 3, name: "GSAP" },
+      { id: 4, name: "Npm / vite " },
+    ],
+  },
 ];
 
 /**

@@ -28,7 +28,7 @@ results driven webs/apps`
       {/* TEXT ABOVE 3D */}
       <div className="relative z-20">
         <AnimatedHeaderSection
-          subTitle={'404 No Bugs Found'}
+          subTitle={'Digital Dreamscapes & Web Creations'}
           title={'Wejden Haddad'}
           text={text}
           textColor={'text-white'}
