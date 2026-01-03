@@ -5,18 +5,17 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const About = () => {
-  const text = `Creative developer passionate about crafting immersive digital experiences.
-    I blend code, design, and motion to bring ideas to life across web and 3D.`;
+  const text = `Multimedia & web developer blending code, design, and motion to build functional, elegant digital experiences. I create e-commerce sites, interactive 3D/AR demos, and animated interfaces — always focused on storytelling and results.`;
 
-  const aboutText = `I’m a multimedia and web developer who loves exploring every layer of digital creation from designing intuitive interfaces and dynamic animations to building structured, functional web experiences. 
 
-My journey has led me through both front-end and back-end development, helping me understand how design and logic work together to create seamless results. 
-I’ve built e-commerce platforms, designed engaging visuals, and experimented with interactive 3D and augmented experiences.
+  // Full about text (replace your original)
+const aboutText = `I’m a multimedia and web developer who explores every layer of digital creation from designing intuitive interfaces and motion-rich animations to building structured, production-ready web experiences.
 
-Every project I create aims to tell a story functional, elegant, and alive. 
-I’m constantly learning new tools to grow my technical and creative sides, whether that’s React and GSAP for motion, WordPress for content creation, or Blender for visual storytelling.
+My journey spans front-end and back-end development, which helps me balance design and logic to create clean, seamless results. I’ve built e-commerce platforms, crafted visual identities and marketing assets, and experimented with interactive 3D and augmented reality experiences.
 
-Outside of coding, I’m always exploring new design trends, refining visuals in Photoshop or After Effects, and dreaming up ways to make the web more inspiring and human.`;
+Every project I create aims to tell a story: functional, elegant, and alive. I’m constantly learning new tools to grow both my technical and creative sides React and GSAP for motion, WordPress for content-driven sites, and Blender for visual storytelling.
+
+Outside of code, I explore design trends, refine visuals in Photoshop and After Effects, and imagine ways to make the web more inspiring and human.`;
 
 
   const imgRef = useRef(null);

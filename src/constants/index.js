@@ -95,7 +95,7 @@ export const projects = [
     name: "Software License Management System",
     description:
       "A full-stack project developed as a final year thesis. It includes a secure REST API for license generation, a C# desktop dashboard (DevExpress) for administrators, and a public company showcase website built with Symfony.",
-    href: "https://github.com/wejdanhaddad",
+    href: "https://github.com/wejdanhaddad/licence-management-system/",
     image: "/assets/projects/twinkle.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
@@ -170,7 +170,8 @@ export const projects = [
     description:
       "My personal portfolio site showcasing my projects and skills, built with React and enhanced with GSAP animations for a dynamic user experience.",
     href: "https://wejdenhaddad-portfolio.netlify.app/",
-  
+   image: "/assets/projects/1762688254411.jpg",
+    bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "HTML / CSS / JS" },
