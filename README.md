@@ -11,7 +11,7 @@
 ![9](https://github.com/user-attachments/assets/c5895fbb-9c22-475c-85b6-93ce62b96514)
 
 
-### Built with React, GSAP, Three.js, and TailwindCSS
+### Built with React, GSAP, Three.js
 
 This is a fully interactive, 3D portfolio inspired by Awwwards-level websites — created to present my **skills, projects, and creative journey** as a **Multimedia & Web Developer**.  
 It combines smooth scroll animations, 3D visuals, and modern web practices to deliver a cinematic, immersive experience.
@@ -27,7 +27,6 @@ It combines smooth scroll animations, 3D visuals, and modern web practices to de
 | Technology | Description |
 | ----------- | ----------- |
 | **React (Vite)** | Modern, fast, and modular framework for building the interface |
-| **Tailwind CSS** | Utility-first CSS for a clean and responsive layout |
 | **GSAP** | Motion engine for scroll-based and timeline animations |
 | **Three.js / React Three Fiber** | 3D rendering engine for web-based interactive scenes |
 | **Drei** | Helpers to simplify 3D scene creation and controls |
