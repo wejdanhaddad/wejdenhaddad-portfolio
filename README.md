@@ -34,6 +34,19 @@ Welcome to my **interactive 3D portfolio** — a modern, immersive showcase of m
 - **Clean Component Architecture** — Modular and maintainable React components :contentReference[oaicite:2]{index=2}
 
 ---
+## About
+
+This portfolio is a creative blend of web development and digital storytelling, designed to reflect my passion for interactive user experiences and modern frontend technologies. It’s intended to be a window into my skills, mindset, and projects, from technical builds to design‑centric work. 
+GitHub
+
+## Learning/Inspirations
+
+I built this portfolio to deepen my skills in 3D web graphics, React architecture, and UI animations — combining creative visuals with frontend engineering best practices.
+
+## License
+
+This project is open for personal and educational use. Feel free to explore the code, learn from it, or adapt it for your own portfolio.
+
 
 ## Installation
 
@@ -51,15 +64,3 @@ npm install
 
 # Start development server
 npm run dev
- About
-
-This portfolio is a creative blend of web development and digital storytelling, designed to reflect my passion for interactive user experiences and modern frontend technologies. It’s intended to be a window into my skills, mindset, and projects, from technical builds to design‑centric work. 
-GitHub
-
-Learning/Inspirations
-
-I built this portfolio to deepen my skills in 3D web graphics, React architecture, and UI animations — combining creative visuals with frontend engineering best practices.
-
- License
-
-This project is open for personal and educational use. Feel free to explore the code, learn from it, or adapt it for your own portfolio.
